@@ -64,12 +64,12 @@ public class UserDto implements Serializable {
         this.active = active;
     }
 
-    public String getPropic() {
-        return propic;
+    public String getProfilePicture() {
+        return profilepicture;
     }
 
-    public void setPropic(String propic) {
-        this.propic = propic;
+    public void setProfilePicture(String profilepricture) {
+        this.profilepicture = profilepicture;
     }
 
     public Integer getGrade() {
